@@ -55,8 +55,8 @@ public class CircularBuffer<T>
     {
         if (count != 0)
         {
-            this.start = 0;
-            this.count = 0;
+            start = 0;
+            count = 0;
         }
     }
 }
